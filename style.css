@@ -12,6 +12,7 @@
 } */
 
 header{
+    background: transparent;
     font-size: 0;
     line-height: 40px;
     padding: 0 16px;
@@ -43,8 +44,9 @@ h5{
 /* NAVBAR SECTION */
 .nav{
     display: inline-block;
-    width: calc(100% / 3);
     font-size: initial;
+    margin: 0 -2px;
+    width: calc(100% / 3);
 }
 
 .logo h1 a img{
@@ -64,12 +66,13 @@ h5{
 }
 
 .nav ul li a{
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px;
 }
 
 .nav ul li a:hover{
     background-color: lightgray;
+    transition: 0.2s ease-in-out;
 }
 
 /* IMAGE SETTINGS */
